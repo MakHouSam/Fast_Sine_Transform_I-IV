@@ -84,4 +84,4 @@ discrete sine transforms. IEEE Access, 9:141181–141198, October 2021.`
 ## Run the code
 The DST I-IV code of **Lemma 1** are `dst1.m`, `dst2.m`, `dst3.m`, `dst4.m` and `sdst1.m`, `sdst2.m`, `sdst3.m` (missing `sdst4.m` in this repo, feel free to complete it if interested) for **Lemma 2**. The corresponding factorized matrices are also in the `lib` folder.
 
-**Remark 2.** Note that one should divide the results by the coefficient $\sqrt{2}$ to get the correct answers (see `dst1_compare_dst.m` under the `test` folder).
+**Remark 2.** Note that one should divide the results by the coefficient $\sqrt{2}$ to get the correct answers for DST-I (see `dst1_compare_dst.m` under the `test` folder) and divide by $\sqrt{N}$ for type II-IV.
